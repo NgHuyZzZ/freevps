@@ -38,4 +38,4 @@ jobs:
         run: ping -t localhost
 
       - name: Time
-        run: -Seconds 999999999
+        run: Start-sleep -Seconds 999999999
